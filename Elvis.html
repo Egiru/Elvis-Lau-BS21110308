@@ -1,0 +1,381 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elvis Log Book</title>
+<link rel="stylesheet" href="bootstrap-custom.css">
+<style>
+    .button {
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #00aaff; 
+        box-shadow: 0 0 5px #0185f9;
+    }
+
+    .button:hover {
+        background-color: #0088cc;
+    }
+    
+    .summary-cont {
+        height: 100px;
+        padding: 10px;
+        margin: 20px;
+        margin-bottom: -10px;
+        border-radius: 10px;
+        display: flex;
+        background: #112240; 
+        box-shadow: 0 0 10px lightblue;
+    }
+
+    .summary {
+        height: 100%;
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+        color: white;
+    }
+
+    .date {
+        padding-right: 5;
+        font-weight: bold;
+        font-size: 20px;
+        display: flex; justify-content: center; align-items: center;
+        color: whitesmoke;
+    }
+</style>
+</head>
+<body class="w-100p h-100p pd-15 bs-bb" style="position: fixed; background-image: url('elvis/BG.jpg'); background-size: cover; background-position: center;">
+    <!-- Header -->
+    <div class="w-100p h-100 d-flex-center pd-5 bs-bb br-15" style="background-color: #112240; position: fixed; z-index: 1;">
+        <div class="w-100p clr-white5 fs-25">MY LOG BOOK</div>
+        <!-- Buttons -->
+        <div class="br-15 bdr-none tw-nowrap"> 
+            <button class="button" onclick="func1()"> Log Book's Data</button>
+            <button class="button" onclick="func2()"> Resume</button>
+            <button class="button" onclick="func3()"> Portfolio</button>
+        </div>
+    </div>
+    <!-- Body -->
+    <div class="w-100p of-auto" style=" position: fixed; top: 100px; background-size: cover; background-position: center; height: calc(100% - 100px);">
+
+        <!-- Log's details -->
+        <div class="summary-cont">
+            <div class="summary"> 
+                1. First briefing of internship at Khaleef Net Sdn Bhd. <br> 
+                2. Making of Log Book using HTML language. 
+            </div>
+            <div class="date">24.3.2025</div>
+        </div>
+        
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Introduction to Bootstrap in programming. <br> 
+                2. Apply Bootstrap into log book's development. <br>
+                3. Learn animation and transition in HTML.
+            </div>
+            <div class="date">25.3.2025</div>
+        </div>
+        
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Introduction to Backend programming. <br>
+                2. Introduction to API. <br>
+                3. Understanding of API flow work.
+            </div>
+            <div class="date"> 26.3.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary">
+                1. Try to do Front-end and Back-end for: <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a. Update note. <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b. Delete note.
+                
+            </div>
+            <div class="date">27.3.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Coding test and revision.
+            </div>
+            <div class="date">28.3.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Succesfully display note's datas on dashboard. <br>
+                2. Learn about using icons and it's functions. <br>
+                3. Learn about popup notifications. <br>
+                4. Learn to update displayed notes without refreshing the webs. (auto refresh saving notes)
+            </div>
+            <div class="date">3.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. complete update and delete note button. <br>
+                2. Create popup message delete confirmatio. <br>
+                3. Creaete page number and page size. <br>
+                4. Coding test.
+            </div>
+            <div class="date">4.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Finish making Wireframe for Chat section. <br>
+                2. Start research on structure table for feature chat.
+            </div>
+            <div class="date">7.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Help company lift 50 new gaming chair. <br>
+                2. Help company assemble 23 new gaming chair.
+            </div>
+            <div class="date">8.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Continue learn to work using laravel. <br>
+                2. Company project distribution. <br>
+                3. Focus on invoice section of the project.
+            </div>
+            <div class="date">9.4.2025</div>
+        </div>
+        
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Implement Laravel backend coding. <br>
+                2. Do backend for laravel practice with the help of Postman extension. 
+            </div>
+            <div class="date">10.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Finish Laravel backend practice using postman. <br>
+                2. Finish preparation of backend process for invoice section. <br>
+                3. Start the implementation of backend process into the invoice section.
+            </div>
+            <div class="date">11.4.2025</div>
+        </div>
+
+        <div class="summary-cont">
+            <div class="w-100p fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Backend practice. <br>
+                    2. apply CRUD into backend. <br>
+                    3. Finish backend test.
+                </div>
+            </div>
+            
+            <div class="date">14.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Start of company's project: Speech-to-text. <br>
+                    2. Research and testing on speech-to-text.
+                </div>
+            </div>
+            <div class="date">21.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Training and testing AI on summarizing text. <br>
+                    2. Training and testing AI on refining text. <br>
+                </div>
+            </div>
+            <div class="date">28.4.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Do draft for API documentation. <br>
+                    2. Do Route and Controller.
+                </div>
+            </div>
+            <div class="date">9.5.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Finish Route and Controller. <br>
+                    2. Make documentation for Route and Controller. <br>
+                    3. Freestyle quiz.
+                </div>
+            </div>
+            <div class="date">16.5.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Continue meeting services research for company's project. <br>
+                    2. Implement meeting service API for company's project.
+                </div>
+            </div>
+            <div class="date">23.5.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Learn implementing a bit of Java Script into HTML. <br>
+                    2. Learn and test for Front-end.
+                </div>
+            </div>
+            <div class="date">30.5.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Begin research on Android Studio for company project. <br>
+                    2. Begin research on Firebase for notification functions. <br>
+                    3. Manage to sent notfication to mobile device for company project.
+                </div>
+            </div>
+            <div class="date">06.6.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Succesfully improved the Android Studio to connect its data to company database. <br>
+                    2. Begin research on deepgram for company's project.
+                </div>
+            </div>
+            <div class="date">13.6.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Continue research on deepgram and testing.
+                </div>
+            </div>
+            <div class="date">20.6.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Begin creating of Voice Command in HTML for company's project. <br>
+                    2. update voice command and some refinement.
+                </div>
+            </div>
+            <div class="date">27.6.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. Begin research on laravel reverb and broadcast. <br>
+                    2. Manage to create a video call program for company project.
+                </div>
+            </div>
+            <div class="date">04.7.2025</div>
+        </div>
+
+        <div class="summary-cont" >
+            <div class="w-100p d-flex fd-column">
+                <div class="clr-white1">WEEKLY UPDATE:</div>
+                <div class="summary"> 
+                    1. 
+                </div>
+            </div>
+            <div class="date">11.7.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Do coloring update for the frontend of mobile app for the meeting AI. <br>
+                2. Connect title frontend with actual meeting title selected.
+            </div>
+            <div class="date">14.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Add profile fragment and profile detail <br>
+                2. Optimize loop function for looping datas.
+            </div>
+            <div class="date">15.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Fetch get-meeting data to mobile apps<br>
+                2. Get all get-meeting title in a list form.
+            </div>
+            <div class="date">18.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Fetch get-meeting by id data to mobile apps.<br>
+                2. Debug details page for not showing up during other fragment is selected.
+            </div>
+            <div class="date">19.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Make a webview in the fragment.<br>
+                2. Webview connect to any link provided and now connected to AI meeting website. <br>
+                3. Created Aryan chat UI and some AI response when message sent. <br>
+                4. Hide Bottom nav when TextEdit is in used.
+            </div>
+            <div class="date">20.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Debuging calling from mobile user to website user (on going).<br>
+            </div>
+            <div class="date">21.8.2025</div>
+        </div>
+        <div class="summary-cont" >
+            <div class="summary"> 
+                1. Continue debuging calling from mobile user to website user (on going).<br>
+                2. Researching on Echo for Android Studio.
+            </div>
+            <div class="date">22.8.2025</div>
+        </div>
+    </div>
+    <script>
+        function func1() {
+            alert("Button 1 Clicked!");
+        }
+        function func2() {
+            window.location.href = "https://umsedumy-my.sharepoint.com/:b:/g/personal/elvis_lau_bs21_iluv_ums_edu_my/EXH1ArBvOPBEttkBcPg-XvABFcSIDQI1hSg3GsUXbH81_Q";
+        }
+        function func3() {
+            alert("Button 3 Clicked!");
+        }
+    </script>   
+</body>
+</html>

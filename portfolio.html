@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="bootstrap-custom.css">
+
+    <style>
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            
+            to {
+                opacity: 1;
+                transform: translateX(0px);
+            }
+        }
+
+        .block {
+            animation: appear 5s linear;
+            animation-timeline: view();
+            animation-range: entry 0% cover 40%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="w-100p h-100p of-auto" style="position: fixed; background-color: #112240;">
+        <div class="h-100p clr-white1 fs-40 d-flex-center">
+            Hi my name is ELVIS, I'm a programmer. <br>
+            hope you have a nice day
+        </div>
+
+        <!-- Body -->
+        <div class="block w-100p h-100p" style="top: 100%; background-color: red; top: 100%;">
+            <div class="clr-white5 fs-large">Designs</div>
+        </div>
+
+        <div class="block w-100p h-100p" style="top: 100%; background-color: black; top: 100%;">
+            <div class="clr-white5 fs-large">Designs</div>
+        </div>
+
+        <div class="block w-100p h-100p" style="top: 100%; background-color: green; top: 100%;">
+            <div class="clr-white5 fs-large">Designs</div>
+        </div>
+
+        <div class="block w-100p h-100p" style="top: 100%; background-color: blue; top: 100%;">
+            <div class="clr-white5 fs-large">Designs</div>
+        </div>
+    </div>
+        
+    
+</body>
+</html>
