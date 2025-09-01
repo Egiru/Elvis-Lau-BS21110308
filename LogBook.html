@@ -4,6 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Industrial Training Report</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    
+
+</head>
+
+    <style>
+    .zoomable {
+        max-width: 300px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    /* Fullscreen zoom effect */
+    .zoomed {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        max-width: 90%;
+        max-height: 90%;
+        transform: translate(-50%, -50%) scale(1.5);
+        z-index: 1000;
+        cursor: zoom-out;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        background: white;
+        border-radius: 8px;
+    }
+    </style>
     <link rel="stylesheet" href="css/bootstrap.css">
     
 
@@ -14,6 +41,8 @@
             <div class="w-100p h-100p d-flex" style="height: 150%;">
                 <div class="h-100p">
                     <div class="w-200 h-90p br-50p d-flex of-hidden">
+
+                        <img class="w-100p h-100p" src="elvis\newProfile.jpg" alt="">
                         <img class="w-100p h-100p" src="image/profile.jpg" alt="Profile Picture">
                     </div>
                 </div>
@@ -37,6 +66,31 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <div class="w-100p">
+                    <div class="fw-bold mg-b-15">MONTH 1 <span style="color: #8ac74d88; font-weight:normal">(24 March - 23 April)</span></div>
+                    <div class="clr-white1">1. Made a <span class="fw-bold clr-plt4">LogBook</span> using HTML.</div>
+                    <div class="clr-white1">2. Introduction to <span class="fw-bold clr-plt4">Laravel</span>.</div>
+                    <div class="clr-white1">3. Introduction to <span class="fw-bold clr-plt4">API</span>.</div>
+                    <div class="clr-white1">4. <span class="fw-bold clr-plt4">Front-end</span> programming lesson session.</div>
+                    <div class="clr-white1">5. <span class="fw-bold clr-plt4">Back-end</span> programming lesson session.</div>
+                    <div class="clr-white1">6. Learned to use <span class="fw-bold clr-plt4">Postman</span> for Back-end testing.</div>
+                    <div class="clr-white1">7. Involved in Company project: <span class="fw-bold clr-plt4">Speech-to-Text</span>.</div>
+                    <div class="clr-white1">7. Involved in Company project: <span class="fw-bold clr-plt4">e-invoice</span>.</div>
+                </div>
+                <div class="w-100p" style="width: 200%;">
+                    <details>
+                        <summary>Show / Hide Images</summary>
+                        <img class="zoomable w-75p" src="elvis/m1-login.png" alt="Month 1">
+                        <img class="zoomable w-75p" src="elvis/m1-note.png" alt="Month 1">
+                        <img class="zoomable w-75p" src="elvis/m1-test.png" alt="Month 1">
+                        <img class="zoomable w-75p" src="elvis/m1-todolist.png" alt="Month 1">
+                    </details>
+                </div>
+                
+            </div>
+       </div>
+
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 1 <span style="color: #8ac74d88; font-weight:normal">(24 March - 23 April)</span></div>
                 <div class="clr-white1">1. Made a <span class="fw-bold clr-plt4">LogBook</span> using HTML.</div>
@@ -54,6 +108,30 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <!-- Left Side: Logbook Text -->
+                <div class="w-100p">
+                    <div class="fw-bold mg-b-15">MONTH 2 <span style="color: #8ac74d88; font-weight:normal">(24 April - 23 May)</span></div>
+                    <div class="clr-white1">1. <span class="fw-bold clr-plt4">AI Training</span> for transcription, summarizing and refining.</div>
+                    <div class="clr-white1">2. Did <span class="fw-bold clr-plt4">API drafting</span>.</div>
+                    <div class="clr-white1">3. Did <span class="fw-bold clr-plt4">Back-end</span> programming.</div>
+                    <div class="clr-white1">4. Researched <span class="fw-bold clr-plt4">meeting services</span> for company project.</div>
+                    <div class="clr-white1">5. Tried to <span class="fw-bold clr-plt4">use the API</span> of the meeting services.</div>
+                </div>
+
+                <!-- Right Side: Dropdown Images -->
+                <!-- <div class="w-100p" style="width: 200%;">
+                    <details>
+                        <summary>Show / Hide Images</summary>
+                        <img class="zoomable w-75p" src="elvis/m2-api.png" alt="Week 2 API Example">
+                        <img class="zoomable w-75p" src="elvis/m2-backend.png" alt="Week 2 Backend Work">
+                        <img class="zoomable w-75p" src="elvis/m2-meeting.png" alt="Week 2 Meeting Research">
+                    </details>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="d-flex" style="gap:15px">
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 2 <span style="color: #8ac74d88; font-weight:normal">( 24 April - 23 May)</span></div>
                 <div class="clr-white1">1. <span class="fw-bold clr-plt4">AI Training</span> For transcription, summarizing and refining.</div>
@@ -69,6 +147,30 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <!-- Left Side: Logbook Text -->
+                <div class="w-100p">
+                    <div class="fw-bold mg-b-15">MONTH 3 <span style="color: #8ac74d88; font-weight:normal">(24 May - 23 June)</span></div>
+                    <div class="clr-white1">1. Researched <span class="fw-bold clr-plt4">Android Studio</span> to create an application for android mobile devices.</div>
+                    <div class="clr-white1">2. Researched <span class="fw-bold clr-plt4">Firebase</span> for notification functionality.</div>
+                    <div class="clr-white1">3. Researched how to <span class="fw-bold clr-plt4">connect Laravel with Android Studio</span>.</div>
+                    <div class="clr-white1">4. Researched <span class="fw-bold clr-plt4">Deepgram</span> for transcription.</div>
+                    <div class="clr-white1">5. Implemented a way to <span class="fw-bold clr-plt4">connect Android Studio to Laravel</span>.</div>
+                </div>
+
+                <!-- Right Side: Dropdown Images -->
+                <!-- <div class="w-100p" style="width: 200%;">
+                    <details>
+                        <summary>Show / Hide Images</summary>
+                        <img class="zoomable w-75p" src="elvis/m3-w1.png" alt="Month 3 Week 1">
+                        <img class="zoomable w-75p" src="elvis/m3-w2.png" alt="Month 3 Week 2">
+                        <img class="zoomable w-75p" src="elvis/m3-w3.png" alt="Month 3 Week 3">
+                    </details>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="d-flex" style="gap:15px">
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 3 <span style="color: #8ac74d88; font-weight:normal">( 24 May - 23 June)</span></div>
                 <div class="clr-white1">1. Researched <span class="fw-bold clr-plt4">Android Studio</span> to create an application for android mobile devices.</div>
@@ -84,6 +186,30 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <!-- Left Side: Logbook Text -->
+                <div class="w-100p">
+                    <div class="fw-bold mg-b-15">MONTH 4 <span style="color: #8ac74d88; font-weight:normal">(24 June - 23 July)</span></div>
+                    <div class="clr-white1">1. Researched how to <span class="fw-bold clr-plt4">Voice Command</span> in HTML.</div>
+                    <div class="clr-white1">2. Developed a <span class="fw-bold clr-plt4">Voice Command</span> system.</div>
+                    <div class="clr-white1">3. Researched <span class="fw-bold clr-plt4">Laravel Reverb</span>.</div>
+                    <div class="clr-white1">4. Developed a <span class="fw-bold clr-plt4">call from user to user via Web RTC</span>.</div>
+                    <div class="clr-white1">5. Added <span class="fw-bold clr-plt4">Transcription Functionality</span>.</div>
+                </div>
+
+                <!-- Right Side: Dropdown Images -->
+                <div class="w-100p" style="width: 200%;">
+                    <details>
+                        <summary>Show / Hide Images</summary>
+                        <img class="zoomable w-75p" src="elvis/m4-v1.jpg" alt="Month 4">
+                        <img class="zoomable w-70p" src="elvis/m4-v2.jpg" alt="Month 4">
+                        <img class="zoomable w-75p" src="elvis/m4-v3.png" alt="Month 4">
+                    </details>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex" style="gap:15px">
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 4 <span style="color: #8ac74d88; font-weight:normal">( 24 June - 23 July)</span></div>
                 <div class="clr-white1">1. Researched how to <span class="fw-bold clr-plt4">Voice Command</span> in HTML.</div>
@@ -99,6 +225,33 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <!-- Left Side: Logbook Text -->
+                <div class="w-100p">
+                    <div class="fw-bold mg-b-15">MONTH 5 <span style="color: #8ac74d88; font-weight:normal">(24 May - 23 June)</span></div>
+                    <div class="clr-white1">1. Developed an <span class="fw-bold clr-plt4">application via Android Studio</span>.</div>
+                    <div class="clr-white1">2. Researched <span class="fw-bold clr-plt4"> Perfex CRM, LHDN and e-invoice</span>.</div>
+                    <div class="clr-white1">3. Managed to <span class="fw-bold clr-plt4">retrieved company data from the application</span>.</div>
+                    <div class="clr-white1">4. Developed a <span class="fw-bold clr-plt4">webview</span> in the application.</div>
+                    <div class="clr-white1">5. Developed a <span class="fw-bold clr-plt4">front-end for chat session</span> in the application.</div>
+                    <div class="clr-white1">5. Researched how to <span class="fw-bold clr-plt4">connect calls from web to the application</span>.</div>
+                </div>
+
+                <!-- Right Side: Dropdown Images -->
+                <div class="w-100p" style="width: 200%;">
+                <details>
+                    <summary>Show / Hide Images</summary>
+                    <img class="zoomable w-75p" src="elvis/m5-1.jpg" alt="Month 5">
+                    <img class="zoomable w-75p" src="elvis/m5-2.jpg" alt="Month 5">
+                    <img class="zoomable w-75p" src="elvis/m5-3.jpg" alt="Month 5">
+                    <img class="zoomable w-75p" src="elvis/m5-4.jpg" alt="Month 5">
+                    <img class="zoomable w-75p" src="elvis/m5-5.jpg" alt="Month 5">
+                </details>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex" style="gap:15px">
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 5 <span style="color: #8ac74d88; font-weight:normal">( 24 July - 23 August)</span></div>
                 <div class="clr-white1">1. Developed an <span class="fw-bold clr-plt4">application via Android Studio</span>.</div>
@@ -115,6 +268,39 @@
                 <div class="h-100p w-1 bg-white5" style="position: absolute; z-index:-1"></div>
                 <div class="w-30 h-30 br-50p bg-plt5"></div>
             </div>
+            <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10 d-flex" style="background-color: #112222;">
+                <!-- Left Side: Logbook Text -->
+                <div class="w-100p">
+                <div class="fw-bold mg-b-15">MONTH 6 <span style="color: #8ac74d88; font-weight:normal">(24 May - 23 June)</span></div>
+                <div class="clr-white1">1. Researched <span class="fw-bold clr-plt4">API for calender</span>.</div>
+                <div class="clr-white1">2. Continue researching how to <span class="fw-bold clr-plt4">connect calls from web to the application</span>.</div>
+                </div>
+
+                <!-- Right Side: Dropdown Images -->
+                <div class="w-100p" style="width: 200%;">
+                <details>
+                    <summary>Show / Hide Images</summary>
+                    <img class="zoomable w-75p" src="elvis/m3-w1.png" alt="Month 3 Week 1">
+                    <img class="zoomable w-75p" src="elvis/m3-w2.png" alt="Month 3 Week 2">
+                    <img class="zoomable w-75p" src="elvis/m3-w3.png" alt="Month 3 Week 3">
+                </details>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    document.querySelectorAll('.zoomable').forEach(img => {
+        img.addEventListener('click', () => {
+        img.classList.toggle('zoomed');
+        });
+    });
+    </script>
+</body>
+
+
+
+</html>
             <div class="w-100p br-15 pd-15 bs-bb mg-t-10 mg-b-10" style="background-color: #112222;">
                 <div class="fw-bold mg-b-15">MONTH 6 <span style="color: #8ac74d88; font-weight:normal">( 24 August - 7 September)</span></div>
                 <div class="clr-white1">1. Researched <span class="fw-bold clr-plt4">API for calender</span>.</div>
