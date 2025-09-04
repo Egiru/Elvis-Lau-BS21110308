@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="BlackTextTheme">
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="UserChatBubbleStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">#FFF9C4</item> <!-- Light Yellow -->
+        <item name="android:elevation">2dp</item>
+    </style>
+    <style name="AryanChatBubbleStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardBackgroundColor">#BBDEFB</item> <!-- Light Blue -->
+        <item name="android:elevation">2dp</item>
+    </style>
+</resources>
